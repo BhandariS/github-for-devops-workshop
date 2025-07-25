@@ -10,3 +10,12 @@ rm testing.py
 git status
 git restore testing.py
 git status
+
+
+git push
+git remote add https://github.com/BhandariS/github-for-devops-workshop
+git remote add --master https://github.com/BhandariS/github-for-devops-workshop
+git remote add -m master https://github.com/BhandariS/github-for-devops-workshop
+git remote add origin https://github.com/BhandariS/github-for-devops-workshop
+branch -m master
+push -u origin master
